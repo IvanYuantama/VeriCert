@@ -25,3 +25,4 @@ contract Cert {
         emit Issued(_course, _id, _grade);
     }
 }
+
