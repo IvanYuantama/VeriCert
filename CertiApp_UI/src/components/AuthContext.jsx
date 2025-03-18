@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         const token = localStorage.getItem("token");
-        setIsLoggedIn(!!token); // Ubah state berdasarkan ada/tidaknya token
+        setIsLoggedIn(!!token); // state diubah berdasarkan ada atau tidaknya token
     }, []);
 
     const login = (token) => {
